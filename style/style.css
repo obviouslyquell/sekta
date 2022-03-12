@@ -1,0 +1,252 @@
+/* header */ 
+.header{
+    display: flex;
+    background-color: #0D0D0D;
+    height: 80px;
+}
+.header-logo__link{
+    border-right: 2px solid #fff;
+}
+.header-logo__image{
+    margin:24px 64px 24px 110px;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-nav__list{
+    display: flex;
+    justify-content: center;
+    margin-left:64px;
+    padding: 0;
+}
+.header-nav__item{
+    list-style-type: none;
+    margin-right: 48px;
+}
+.header-nav__link{
+    text-decoration: none;
+    color:white;
+    font-family: "RobotoCondensed-Regular";
+}
+.header-btn{
+    background-color: #FFD2A4;
+    border-radius: 12px;
+    margin: 12px 110px 12px auto;
+    padding: 0;
+    border: none;
+    width: 180px;
+    height: 56px;
+    font-family: "RobotoCondensed-Regular";
+}
+
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-first__half{
+    margin:64px 0px 72px 110px;
+}
+.footer-custom__list:not(:last-child){
+    margin-bottom: 16px;
+    display: block;
+}
+.footer-copyright{
+    margin-bottom: 32px !important;
+}
+
+.footer-second__half{
+    display: flex;
+    margin: 64px 0px 76px 0px;
+}
+.footer-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-list:first-child{
+    margin-right: 72px;
+}
+.footer-list__item:not(:last-child){
+    margin-bottom:20px;
+}
+.footer-list__icon__link:not(:last-child){
+    margin-right: 20px;
+}
+.footer-third__half{
+    margin: 64px 110px 64px 0px;
+    width: 33%;
+}
+.footer-subscribe{
+    color:white;
+    margin-bottom: 32px;
+    line-height: 44px;
+    width: 377px;
+}
+.footer-label{
+    display: flex;
+    flex-direction:row;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.footer-label__input{
+    flex-grow:2;
+    background-color: #161722;
+    height: 60px;
+    border:none;
+    margin-left:15px;
+}
+.footer-label__input:focus{
+    outline: none;
+}
+.footer-label__btn{
+    width: 40%;
+    border:none;
+    border-radius: 12px;
+    font-family: "RobotoCondensed-Regular";
+}
+
+
+
+
+
+/* Homepage */
+.section-welcome{
+    background: url(/image/woman-in-orange-coat-with-black-and-brown-scarf.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.section-welcome{
+    padding-top: 128px;
+
+}
+.section-welcome__content{
+    margin-left: 110px;
+}
+.welcome-p__text{
+    margin: 0;
+    width: 308px;
+    font-family: "RobotoCondensed-Regular";
+    line-height: 24px;
+    margin-bottom:128px;
+}
+.welcome-h1{
+    width: 592px;
+    line-height: 82px;
+    margin-bottom: 32px;
+}
+.welcome-h6{
+    margin-bottom:16px;
+}
+.welcome-btn{
+    text-decoration: none;
+    font-family: "RobotoCondensed-Regular";
+    color:#1C1D28;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 214px;
+    height: 64px;
+    border-radius: 12px;
+    margin-bottom: 64px;
+}
+.welcome-p{
+    display: flex;
+}
+.welcome-p__dash{
+    height: 2px;
+    width: 18px;
+    background-color: #FFD2A4;
+    margin-top:10px;
+    margin-right:12px;
+}
+
+
+
+
+/* color palette */
+.black{
+    background: #161722;
+}
+.beige{
+    background: #FFD2A4;
+}
+.white-text{
+    color:#fff;
+}
+/*  fonts    */
+.cap2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.cap3{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.78;
+}
+h1{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+    margin: 0;
+}
+h2{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 48px;
+    margin: 0;
+}
+h3{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 40px;
+    margin: 0;
+}
+h4{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 32px;
+    margin: 0;
+}
+h5{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+    margin: 0;
+}
+h6{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 16px;
+    margin: 0;
+}
+@font-face {
+    font-family: "RobotoCondensed-Bold";
+    src: url(/fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: "RobotoCondensed-BoldItalic";
+    src: url(/fonts/RobotoCondensed-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "RobotoCondensed-Italic";
+    src: url(/fonts/RobotoCondensed-Italic.ttf);
+}
+@font-face {
+    font-family: "RobotoCondensed-Light";
+    src: url(/fonts/RobotoCondensed-Light.ttf);
+}
+@font-face {
+    font-family: "RobotoCondensed-LightItalic";
+    src: url(/fonts/RobotoCondensed-LightItalic.ttf);
+}
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src: url(/fonts/RobotoCondensed-Regular.ttf);
+}
+
